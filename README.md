@@ -36,11 +36,11 @@ nvitop
 # Model zoo
 | Task                                     | mAP50  | Config | Model | Where in Our Paper |
 |:----------------------------------------:|:------:|:------:|:-----:|:------------------:|
-| Cityscapes to Foggy Cityscapes(pretrain) | 62.05% | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive]()      | Table 2                   |
-| Cityscapes to Foggy Cityscapes           | 53.52% | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive]()      | Table 2                   |
-| Cityscapes to BDD100K-daytime(pretrain)  | 53.0%  | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive]()      | Table 2                   |
-| Cityscapes to BDD100K-daytime            | 36.57% | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive]()      | Table 2                   |
-| Sim10k to Cityscapes(pretrain)           | 76.86% | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive]()      | Table 2                   |
-| Sim10k to Cityscapes                     | 55.8%  | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive]()      | Table 2                   |
+| Cityscapes to Foggy Cityscapes(pretrain) | 62.05% | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive](https://drive.google.com/file/d/16WZykk8QovgfAWmpGCBG1Q_PXHAH3g9Z/view?usp=sharing)      | Table 1                   |
+| Cityscapes to Foggy Cityscapes           | 53.52% | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive](https://drive.google.com/file/d/1UlbFkmSyI9KthhZXDN30SMuH8ckKkWf7/view?usp=drive_link)      | Table 1                   |
+| Cityscapes to BDD100K-daytime(pretrain)  | 53.0%  | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive]()      | Table 1                   |
+| Cityscapes to BDD100K-daytime            | 36.57% | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive]()      | Table 1                   |
+| Sim10k to Cityscapes(pretrain)           | 76.86% | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive]()      | Table 1                   |
+| Sim10k to Cityscapes                     | 55.8%  | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive]()      | Table 1                   |
 
 
