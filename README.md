@@ -34,12 +34,13 @@ nvitop
 # Dataset Preparation
 
 # Model zoo
-| Task                                     | mAP50  | Config | Model                                                                                 | Where in Our Paper |
-|:----------------------------------------:|:------:|:------:|:-------------------------------------------------------------------------------------:|:------------------:|
-| Cityscapes to Foggy Cityscapes(pretrain) | 62.05% |        | https://drive.google.com/file/d/16WZykk8QovgfAWmpGCBG1Q_PXHAH3g9Z/view?usp=drive_link |                    |
-| Cityscapes to Foggy Cityscapes           | 53.52% |        |                                                                                       |                    |
-| Cityscapes to BDD100K-daytime(pretrain)  | 53.0%  |        |                                                                                       |                    |
-| Cityscapes to BDD100K-daytime            | 36.57% |        |                                                                                       |                    |
-| Sim10k to Cityscapes(pretrain)           | 76.86% |        |                                                                                       |                    |
-| Sim10k to Cityscapes                     | 55.8%  |        |                                                                                       |                    |
+| Task                                     | mAP50  | Config | Model | Where in Our Paper |
+|:----------------------------------------:|:------:|:------:|:-----:|:------------------:|
+| Cityscapes to Foggy Cityscapes(pretrain) | 62.05% |        | [model](https://pan.baidu.com/s/1ZGvYjwXUMoBqtcGHfTnNww?pwd=mxxg)      |                    |
+| Cityscapes to Foggy Cityscapes           | 53.52% |        |       |                    |
+| Cityscapes to BDD100K-daytime(pretrain)  | 53.0%  |        |       |                    |
+| Cityscapes to BDD100K-daytime            | 36.57% |        |       |                    |
+| Sim10k to Cityscapes(pretrain)           | 76.86% |        |       |                    |
+| Sim10k to Cityscapes                     | 55.8%  |        |       |                    |
+
 
