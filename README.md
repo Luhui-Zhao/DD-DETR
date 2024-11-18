@@ -31,7 +31,14 @@ pip install nvitop
 nvitop
 ```
    
-
 # Dataset Preparation
 
 # Model zoo
+| Task                                     | mAP50 | Config | Model | Where in Our Paper |
+|:----------------------------------------:|:-----:|:------:|:-----:|:------------------:|
+| Cityscapes to Foggy Cityscapes(pretrain) |       |        |       |                    |
+| Cityscapes to Foggy Cityscapes           |       |        |       |                    |
+| Cityscapes to BDD100K-daytime(pretrain)  |       |        |       |                    |
+| Cityscapes to BDD100K-daytime            |       |        |       |                    |
+| Sim10k to Cityscapes(pretrain)           |       |        |       |                    |
+| Sim10k to Cityscapes                     |       |        |       |                    |
