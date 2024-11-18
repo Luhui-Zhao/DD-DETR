@@ -5,7 +5,7 @@ Open source code and model for DD-DETR
 **Environment:** Anaconda, Python=3.9, PyTorch=2.0.0, torchvision=0.15.1(CUDA11.8), wandb
 
 ```bash
-$ git clone https://github.com/hnuzhy/SSDA-YOLO.git
+$ git clone 
 $ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 # Codes are only evaluated on GTX3090+CUDA11.2+PyTorch1.10.0. You can follow the same config if needed
