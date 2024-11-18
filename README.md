@@ -2,7 +2,7 @@
 Open source code and model for DD-DETR
 
 # Installation
-**Environment:** Anaconda, Python3.8, PyTorch1.10.0(CUDA11.2), wandb
+**Environment:** Anaconda, Python=3.9, PyTorch=2.0.0, torchvision=0.15.1(CUDA11.8), wandb
 
 ```bash
 $ git clone https://github.com/hnuzhy/SSDA-YOLO.git
