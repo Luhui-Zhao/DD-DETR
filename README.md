@@ -25,7 +25,13 @@ python setup.py build install
 python test.py
 cd ../../..
 ```
+5. Monitor real-time GPU performance
+```sh
+pip install nvitop
+nvitop
+```
    
+
 # Dataset Preparation
 
 # Model zoo
