@@ -93,13 +93,16 @@ nvitop
    └─ bdd2city
       └─ train
       └─ val
-└─ clipart
-   └─ Annotations
-   └─ ImageSets
-   └─ JPEGImages
-└─ VOCdevkit
-   └─ VOC2007
-   └─ VOC2012
+└─ Sim10K2city
+   └─ annotations #Same as city2foggy
+   └─ sim10k
+   └─ sim10k2city
+   └─ cityscapes
+      └─ train
+      └─ val
+   └─ city2sim10k
+      └─ train
+      └─ val
 ```
 
 
