@@ -33,7 +33,7 @@ Ctrl+Alt+t
 cd anaconda3/envs/XXX/lib/pythonx.x/site-packages/torchvision/datasets
 # Delete coco.py
 rm coco.py
-# Delete coco.py
+# Copy my py file past
 ```
 6. Monitor real-time GPU performance
 ```sh
