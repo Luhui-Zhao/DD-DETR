@@ -2,7 +2,7 @@
 Open source code and model for DD-DETR
 
 # Installation
-**Environment:** Anaconda, Python=3.9, PyTorch=2.0.0, torchvision=0.15.1(CUDA11.8), wandb
+**Environment:** Two NVIDIA A6000 GPUs, Anaconda, Python=3.9, PyTorch=2.0.0, torchvision=0.15.1(CUDA11.8), wandb
 1. Clone this repo
 ```sh
 git clone 
