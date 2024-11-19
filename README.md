@@ -47,16 +47,16 @@ nvitop
 [DATASET_PATH]
 └─ city2foggy
    └─ annotations
-      └─ city
+      └─ sr
          └─ instances_train.json
          └─ instances_val.json
-      └─ city_sf
+      └─ sf
          └─ instances_train.json
          └─ instances_val.json
-      └─ foggycity
+      └─ tr
          └─ instances_train.json
          └─ instances_val.json
-      └─ foggycity_tf
+      └─ tf
          └─ instances_train.json
          └─ instances_val.json
    └─ leftImg8bit
