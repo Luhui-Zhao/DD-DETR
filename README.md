@@ -121,7 +121,7 @@ nvitop
 
 | Task                                     | mAP50  | Config | Model | Where in Our Paper |
 |:----------------------------------------:|:------:|:------:|:-----:|:------------------:|
-| coco pre-training model                  | —     | —                                                | [DAB-DETR](https://github.com/IDEA-Research/DAB-DETR)      | —                   |
+| coco pre-training model                  | —     | —                                                | [DAB-Deformable-DETR-R50-v2](https://github.com/IDEA-Research/DAB-DETR?tab=readme-ov-file#model-zoo)      | —                   |
 | Cityscapes to Foggy Cityscapes(pretrain) | 62.05% | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive]()      | Table x                   |
 | Cityscapes to Foggy Cityscapes           | 53.52% | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive]()      | Table x                   |
 | Cityscapes to BDD100K-daytime(pretrain)  | 53.0%  | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive]()      | Table x                   |
