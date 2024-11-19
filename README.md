@@ -42,7 +42,7 @@ nvitop
 ```
    
 # Dataset Preparation
-## Project Structure
+## Dataset Structure
 ```
 [DATASET_PATH]
 └─ city2foggy
@@ -99,8 +99,14 @@ nvitop
 ### CityScapes → CityScapes Foggy
 * **CityScapes**: Please download it from the official [website](https://www.cityscapes-dataset.com/downloads/).Images ***leftImg8bit_trainvaltest.zip (11GB) [md5]***; Annotations ***gtFine_trainvaltest.zip (241MB) [md5]***.
 * **Foggy CityScapes**: Download from the official [website](https://www.cityscapes-dataset.com/downloads/). Images ***leftImg8bit_trainval_foggyDBF.zip (20GB) [md5]***; Annotations are the same with `CityScapes`. Note, we chose foggy images with `beta=0.02` out of three kind of choices `(0.005,0.01, 0.02)`.
-* **Normal-style → Foggy-style and Foggy-style → Normal-style**:We use datasets that have been transformed using [CUT(ECCV2020)](https://github.com/taesungp/contrastive-unpaired-translation) in [SSDA-YOLO](https://github.com/hnuzhy/SSDA-YOLO)
-* **VOC foramt → coco format**:You can use the open source conversion code [cityscapes-to-coco-conversion](https://github.com/TillBeemelmanns/cityscapes-to-coco-conversion) or the converted coco format Annotations file I uploaded to [Google Drive]()
+* **Normal-style → Foggy-style and Foggy-style → Normal-style**:We use datasets that have been transformed using [CUT(ECCV2020)](https://github.com/taesungp/contrastive-unpaired-translation) in [SSDA-YOLO](https://github.com/hnuzhy/SSDA-YOLO).
+* **VOC foramt → coco format**:You can use the open source conversion code [cityscapes-to-coco-conversion](https://github.com/TillBeemelmanns/cityscapes-to-coco-conversion) or the converted coco format Annotations file I uploaded to [Google Drive]().
+### CityScapes → BDD100K-daytime
+* **CityScapes**: Please download it from the official [website](https://www.cityscapes-dataset.com/downloads/).Images ***100k_images_train.zip***; Annotations ***gtFine_trainvaltest.zip (241MB) [md5]***.
+* **BDD100K-daytime**: Download from the official [website](https://dl.cv.ethz.ch/bdd100k/data/). Images ***leftImg8bit_trainval_foggyDBF.zip (20GB) [md5]***; Converted coco format annotation file I uploaded to [Google Drive]().
+* **Cityscapes-style → daytime-style and daytime-style → Cityscapes-style**:We use [CUT(ECCV2020)](https://github.com/taesungp/contrastive-unpaired-translation) for image style conversion.
+* **Annotations：coco format**:Converted coco format annotation file I uploaded to [Google Drive]().
+  
 # Model zoo
 | Task                                     | mAP50  | Config | Model | Where in Our Paper |
 |:----------------------------------------:|:------:|:------:|:-----:|:------------------:|
