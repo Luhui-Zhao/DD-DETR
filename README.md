@@ -42,6 +42,9 @@ nvitop
 ```
    
 # Dataset Preparation
+### CityScapes → CityScapes Foggy
+* **CityScapes**: Please download it from the official [website](https://www.cityscapes-dataset.com/downloads/).Images ***leftImg8bit_trainvaltest.zip (11GB) [md5]***; Annotations ***gtFine_trainvaltest.zip (241MB) [md5]***.
+* **Foggy CityScapes**: Download from the official [website](https://www.cityscapes-dataset.com/downloads/). Images ***leftImg8bit_trainval_foggyDBF.zip (20GB) [md5]***; Annotations are the same with `CityScapes`. Note, we chose foggy images with `beta=0.02` out of three kind of choices `(0.005,0.01, 0.02)`.
 
 # Model zoo
 | Task                                     | mAP50  | Config | Model | Where in Our Paper |
