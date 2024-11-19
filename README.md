@@ -25,7 +25,9 @@ python setup.py build install
 python test.py
 cd ../../..
 ```
-5. Monitor real-time GPU performance
+5. Change the data load code
+
+6. Monitor real-time GPU performance
 ```sh
 pip install nvitop
 nvitop
