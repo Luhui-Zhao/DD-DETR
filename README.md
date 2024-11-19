@@ -72,17 +72,7 @@ nvitop
       └─ train
       └─ val
 └─ city2bdd100k
-   └─ annotations
-      └─ sr
-         └─ instances_train.json
-      └─ sf
-         └─ instances_train.json
-      └─ tr
-         └─ instances_train.json
-         └─ instances_val.json
-      └─ tf
-         └─ instances_train.json
-         └─ instances_val.json
+   └─ annotations(Same as city2foggy)
    └─ cityscapes
       └─ train
    └─ city2bdd
@@ -94,7 +84,7 @@ nvitop
       └─ train
       └─ val
 └─ Sim10K2city
-   └─ annotations #Same as city2foggy
+   └─ annotations(Same as city2foggy)
    └─ sim10k
    └─ sim10k2city
    └─ cityscapes
