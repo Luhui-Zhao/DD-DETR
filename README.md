@@ -3,10 +3,10 @@ Open source code and model for DD-DETR
 ## Outline
 
 1. [Installation](#Installation)
-2. [Dataset Preparation](#Dataset Preparation)
-3. [Model Zoo](#Model zoo)
-4. [Training and Evaluation](#Training and Evaluation)
-5. [Citation and Acknowledgement](#Citation and Acknowledgement)
+2. [Dataset Preparation](#Dataset-Preparation)
+3. [Model Zoo](#Model-zoo)
+4. [Training and Evaluation](#Training-and-Evaluation)
+5. [Citation and Acknowledgement](#Citation-and-Acknowledgement)
 # Installation
 **Environment:** Two NVIDIA A6000 GPUs, Anaconda, Python=3.9, PyTorch=2.0.0, torchvision=0.15.1(CUDA11.8), wandb
 1. Clone this repo
