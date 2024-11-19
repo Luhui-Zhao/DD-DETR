@@ -26,7 +26,15 @@ python test.py
 cd ../../..
 ```
 5. Change the data load code
-
+```sh
+# Open a new command line window
+Ctrl+Alt+t
+# Open the package for data loading
+cd anaconda3/envs/XXX/lib/pythonx.x/site-packages/torchvision/datasets
+# Delete coco.py
+rm coco.py
+# Delete coco.py
+```
 6. Monitor real-time GPU performance
 ```sh
 pip install nvitop
