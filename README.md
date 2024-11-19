@@ -43,6 +43,65 @@ nvitop
    
 # Dataset Preparation
 ## Project Structure
+```
+[DATASET_PATH]
+└─ city2foggy
+   └─ annotations
+      └─ city
+         └─ instances_train.json
+         └─ instances_val.json
+      └─ city_sf
+         └─ instances_train.json
+         └─ instances_val.json
+      └─ foggycity
+         └─ instances_train.json
+         └─ instances_val.json
+      └─ foggycity_tf
+         └─ instances_train.json
+         └─ instances_val.json
+   └─ leftImg8bit
+      └─ train
+      └─ val
+   └─ leftImg8bit_sf
+      └─ train
+      └─ val
+   └─ leftImg8bit_foggy
+      └─ train
+      └─ val
+   └─ leftImg8bit_foggy_tf
+      └─ train
+      └─ val
+└─ city2bdd100k
+   └─ annotations
+      └─ sr
+         └─ instances_train.json
+      └─ sf
+         └─ instances_train.json
+      └─ tr
+         └─ instances_train.json
+         └─ instances_val.json
+      └─ tf
+         └─ instances_train.json
+         └─ instances_val.json
+   └─ cityscapes
+      └─ train
+   └─ city2bdd
+      └─ train
+   └─ bdd100k
+      └─ train
+      └─ val
+   └─ bdd2city
+      └─ train
+      └─ val
+└─ clipart
+   └─ Annotations
+   └─ ImageSets
+   └─ JPEGImages
+└─ VOCdevkit
+   └─ VOC2007
+   └─ VOC2012
+```
+
 
 ### CityScapes → CityScapes Foggy
 * **CityScapes**: Please download it from the official [website](https://www.cityscapes-dataset.com/downloads/).Images ***leftImg8bit_trainvaltest.zip (11GB) [md5]***; Annotations ***gtFine_trainvaltest.zip (241MB) [md5]***.
