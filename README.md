@@ -118,8 +118,10 @@ nvitop
 * **Cityscapes-style → GTA5-style and GTA5-style → Cityscapes-style**:We use [CUT(ECCV2020)](https://github.com/taesungp/contrastive-unpaired-translation) for image style conversion.
 * **Annotations：coco format**:Converted coco format annotation file I uploaded to [Google Drive]().
 # Model zoo
+
 | Task                                     | mAP50  | Config | Model | Where in Our Paper |
 |:----------------------------------------:|:------:|:------:|:-----:|:------------------:|
+| coco pre-training model                  | ——     | ——                                                | [DAB-DETR](https://github.com/IDEA-Research/DAB-DETR)      | ——                   |
 | Cityscapes to Foggy Cityscapes(pretrain) | 62.05% | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive]()      | Table x                   |
 | Cityscapes to Foggy Cityscapes           | 53.52% | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive]()      | Table x                   |
 | Cityscapes to BDD100K-daytime(pretrain)  | 53.0%  | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive]()      | Table x                   |
