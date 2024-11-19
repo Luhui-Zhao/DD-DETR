@@ -46,7 +46,7 @@ nvitop
 ```
 [DATASET_PATH]
 └─ city2foggy
-   └─ [annotations](https://drive.google.com/drive/folders/1-SgIjDRtdC-RJcylNCJO0XGIfXTGZjOb?usp=sharing)
+   └─ annotations
       └─ sr
          └─ instances_train.json
          └─ instances_val.json
@@ -72,7 +72,7 @@ nvitop
       └─ train
       └─ val
 └─ city2bdd100k
-   └─ [annotations](https://drive.google.com/drive/folders/1-SgIjDRtdC-RJcylNCJO0XGIfXTGZjOb?usp=sharing)(Same as city2foggy)
+   └─ annotations(Same as city2foggy)
    └─ cityscapes
       └─ train
    └─ city2bdd
@@ -84,7 +84,7 @@ nvitop
       └─ train
       └─ val
 └─ Sim10K2city
-   └─ [annotations](https://drive.google.com/drive/folders/1-SgIjDRtdC-RJcylNCJO0XGIfXTGZjOb?usp=sharing)(Same as city2foggy)
+   └─ annotations(Same as city2foggy)
    └─ sim10k
    └─ sim10k2city
    └─ cityscapes
