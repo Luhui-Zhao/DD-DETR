@@ -46,11 +46,11 @@ nvitop
 # Model zoo
 | Task                                     | mAP50  | Config | Model | Where in Our Paper |
 |:----------------------------------------:|:------:|:------:|:-----:|:------------------:|
-| Cityscapes to Foggy Cityscapes(pretrain) | 62.05% | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive]()      | Table 1                   |
-| Cityscapes to Foggy Cityscapes           | 53.52% | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive]()      | Table 1                   |
-| Cityscapes to BDD100K-daytime(pretrain)  | 53.0%  | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive]()      | Table 1                   |
-| Cityscapes to BDD100K-daytime            | 36.57% | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive]()      | Table 1                   |
-| Sim10k to Cityscapes(pretrain)           | 76.86% | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive]()      | Table 1                   |
-| Sim10k to Cityscapes                     | 55.8%  | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive]()      | Table 1                   |
+| Cityscapes to Foggy Cityscapes(pretrain) | 62.05% | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive]()      | Table x                   |
+| Cityscapes to Foggy Cityscapes           | 53.52% | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive]()      | Table x                   |
+| Cityscapes to BDD100K-daytime(pretrain)  | 53.0%  | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive]()      | Table x                   |
+| Cityscapes to BDD100K-daytime            | 36.57% | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive]()      | Table x                   |
+| Sim10k to Cityscapes(pretrain)           | 76.86% | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive]()      | Table x                   |
+| Sim10k to Cityscapes                     | 55.8%  | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive]()      | Table x                   |
 
 
