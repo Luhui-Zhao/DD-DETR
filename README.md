@@ -131,15 +131,15 @@ nvitop
 # Training and Evaluation
 | Train or Test | Task                                      | command |
 |---------------|-------------------------------------------|---------|
-| Train         |  Cityscapes to Foggy Cityscapes(pretrain) | [cmd_c2f]()       |
-| Train         | Cityscapes to Foggy Cityscapes            | [cmd_c2f]()       |
-| Train         | Cityscapes to BDD100K-daytime(pretrain)   | [cmd_c2b]()       |
-| Train         | Cityscapes to BDD100K-daytime             | [cmd_c2b]()       |
-| Train         | Sim10k to Cityscapes(pretrain)            | [cmd_s2c]()       |
-| Train         | Sim10k to Cityscapes                      | [cmd_s2c]()       |
-| Test          | Cityscapes to Foggy Cityscapes            | [cmd_c2f]()       |
-| Test          | Cityscapes to BDD100K-daytime             | [cmd_c2b]()       |
-| Test          | Sim10k to Cityscapes                      | [cmd_s2c]()       |
+| Train         |  Cityscapes to Foggy Cityscapes(pretrain) | [cmd_train_c2f]()       |
+| Train         | Cityscapes to Foggy Cityscapes            | [cmd_train_c2f]()       |
+| Train         | Cityscapes to BDD100K-daytime(pretrain)   | [cmd_train_c2b]()       |
+| Train         | Cityscapes to BDD100K-daytime             | [cmd_train_c2b]()       |
+| Train         | Sim10k to Cityscapes(pretrain)            | [cmd_train_s2c]()       |
+| Train         | Sim10k to Cityscapes                      | [cmd_train_s2c]()       |
+| Test          | Cityscapes to Foggy Cityscapes            | [cmd_test_c2f]()       |
+| Test          | Cityscapes to BDD100K-daytime             | [cmd_test_c2b]()       |
+| Test          | Sim10k to Cityscapes                      | [cmd_test_s2c]()       |
 
 # Citation and Acknowledgement
 
