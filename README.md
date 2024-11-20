@@ -14,7 +14,7 @@ Open source code and model for DD-DETR
 git clone 
 cd 
 ```
-2. Create a virtual environment and install Pytorch
+2. Create a virtual environment and install [Pytorch](https://pytorch.org/get-started/previous-versions/)
 ```sh
 conda create -n label python=3.9 
 pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu118 
@@ -129,6 +129,17 @@ nvitop
 | Sim10k to Cityscapes(pretrain)           | 76.86% | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive]()      | Table x                   |
 | Sim10k to Cityscapes                     | 55.8%  | [cfg](config/DA/Cityscapes2FoggyCityscapes)       | [Google Drive]()      | Table x                   |
 # Training and Evaluation
+| Train or Test | Task                                      | command |
+|---------------|-------------------------------------------|---------|
+| Train         |  Cityscapes to Foggy Cityscapes(pretrain) | [cmd_c2f]()       |
+| Train         | Cityscapes to Foggy Cityscapes            | [cmd_c2f]()       |
+| Train         | Cityscapes to BDD100K-daytime(pretrain)   | [cmd_c2b]()       |
+| Train         | Cityscapes to BDD100K-daytime             | [cmd_c2b]()       |
+| Train         | Sim10k to Cityscapes(pretrain)            | [cmd_s2c]()       |
+| Train         | Sim10k to Cityscapes                      | [cmd_s2c]()       |
+| Test          | Cityscapes to Foggy Cityscapes            | [cmd_c2f]()       |
+| Test          | Cityscapes to BDD100K-daytime             | [cmd_c2b]()       |
+| Test          | Sim10k to Cityscapes                      | [cmd_s2c]()       |
 
 # Citation and Acknowledgement
 
