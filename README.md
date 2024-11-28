@@ -1,5 +1,5 @@
-# DD-DETR
-Open source code and model for DD-DETR
+# DPGT
+Open source code and model for DPGT
 ## Outline
 
 1. [Installation](#Installation)
